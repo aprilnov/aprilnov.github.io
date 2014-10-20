@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Getting Started</title>
+ 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  	<script type="text/javascript" src="javascripts/jquery-1.7.2.min.js"></script>
+  	<script src="javascripts/hoverable.js" type="text/javascript"></script>
+  	<script src="javascripts/touchable.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="content">
+        <div id="mainView" class="dragableItem" draggable="true">
+            <header>Main</header><div class="count" data-col-moves="0"></div>
+        </div>
+        <div class="scrollableList">
+	        <div id="columns-full">
+	            <div id="col1" class="column dragableItem" draggable="true"><header>A</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col2" class="column dragableItem" draggable="true"><header>B</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col3" class="column dragableItem" draggable="true"><header>C</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col4" class="column dragableItem" draggable="true"><header>D</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col5" class="column dragableItem" draggable="true"><header>A</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col6" class="column dragableItem" draggable="true"><header>B</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col7" class="column dragableItem" draggable="true"><header>C</header><div class="count" data-col-moves="0"></div></div>
+	            <div id="col8" class="column dragableItem" draggable="true"><header>D</header><div class="count" data-col-moves="0"></div></div>
+	        </div>
+        </div>
+    </div>
+    
+    
+    <div class="touchme" id="Touchable" style="padding:20px;margin-right:20px;position:relative;float:left; width:400px; height:100px; display:block; background:SteelBlue">
+        <div class="tooltip" style="white-space:nowrap; display:block; position:absolute; left:50px; top: -55px; display:none; z-index:10000; background:  50% 100% no-repeat url('https://assets0.github.com/images/modules/tipsy/tipsy-south.gif'); padding: 5px; font-size:30px; opacity: 0.8;text-shadow: black 1px 1px 0px;) ">
+          <div class="inner" style="background-color: black;
+          border-bottom-left-radius: 3px 3px;
+          border-bottom-right-radius: 3px 3px;
+          border-top-left-radius: 3px 3px;
+          border-top-right-radius: 3px 3px;
+          color: white;
+          padding: 5px 8px 4px;
+          text-align: center;">I just came to say hello</div>
+        </div>
+        <p>Try to long tap in the box on an iPad or iPhone or just hover on a Desktop</p>
+    </div>
+        
+    <script type="text/javascript" src="javascripts/app.js"></script>
+</body>
+</html>
