@@ -367,7 +367,9 @@ body {
   height: 350px;
   overflow: hidden; }
   .post .article-image .post-image-image {
-    background-size: cover;
+    background-size: inherit;
+    background-position: top;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     left: 0;
