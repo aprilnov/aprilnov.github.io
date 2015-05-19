@@ -8,7 +8,8 @@
 
     $(document).ready(function(){
 
-        $(".post-content").fitVids();
+		// for video embed
+        // $(".post-content").fitVids();
         
         // Creates Captions from Alt tags
         $(".post-content img").each(function() {
